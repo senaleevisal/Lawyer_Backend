@@ -4,7 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13d6ce35-3c00-4d3b-b9fb-49850626d54b" name="Changes" comment="" />
+    <list default="true" id="13d6ce35-3c00-4d3b-b9fb-49850626d54b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/Advice/LawyerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/dao/Lawyer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/dao/ResponseBody/ResponseBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/dto/LawyerEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/Controller/LawyerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/Controller/LawyerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/LawyerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/LawyerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/Repository/LawyerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/Repository/LawyerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/Service/IMPL/LawyerServiceIMPL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/Service/IMPL/LawyerServiceIMPL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/Service/LawyerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/Service/LawyerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/dao/LawyerEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/dto/Lawyer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/ait/lawyer/Controller/LawyerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/ait/lawyer/Controller/LawyerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/ait/lawyer/Repository/LawyerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/ait/lawyer/Repository/LawyerRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/ait/lawyer/Service/IMPL/LawyerServiceIMPL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/ait/lawyer/Service/IMPL/LawyerServiceIMPL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/ait/lawyer/Service/LawyerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/ait/lawyer/Service/LawyerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/ait/lawyer/dao/LawyerEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/ait/lawyer/dto/Lawyer.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,25 +54,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.LawyerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/senaleevisal/Developer/Lawyer_Backend/pom.xml&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.LawyerApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/senaleevisal/Developer/Lawyer_Backend/pom.xml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="edu.ait.lawyer.Controller" />
@@ -94,6 +120,7 @@
       <updated>1720969523547</updated>
       <workItem from="1720969524567" duration="2362000" />
       <workItem from="1720977291676" duration="11000" />
+      <workItem from="1720978414959" duration="9500000" />
     </task>
     <servers />
   </component>

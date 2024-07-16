@@ -5,29 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13d6ce35-3c00-4d3b-b9fb-49850626d54b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/Advice/LawyerAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/dao/Lawyer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/dao/ResponseBody/ResponseBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/dto/LawyerEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/Advice/LawyerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/Advice/LawyerAdvice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/Controller/LawyerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/Controller/LawyerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/LawyerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/LawyerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/Repository/LawyerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/Repository/LawyerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/Service/IMPL/LawyerServiceIMPL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/Service/IMPL/LawyerServiceIMPL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/Service/LawyerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/Service/LawyerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/dao/LawyerEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/dto/Lawyer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/dao/Lawyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/dao/Lawyer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/dao/ResponseBody/ResponseBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/dto/ResponseBody/ResponseBody.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/ait/lawyer/Controller/LawyerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/ait/lawyer/Controller/LawyerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/ait/lawyer/Repository/LawyerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/ait/lawyer/Repository/LawyerRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/ait/lawyer/Service/IMPL/LawyerServiceIMPL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/ait/lawyer/Service/IMPL/LawyerServiceIMPL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/ait/lawyer/Service/LawyerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/ait/lawyer/Service/LawyerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/ait/lawyer/dao/LawyerEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/ait/lawyer/dto/Lawyer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/ait/lawyer/dao/Lawyer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/ait/lawyer/dao/Lawyer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +106,7 @@
       <updated>1720969523547</updated>
       <workItem from="1720969524567" duration="2362000" />
       <workItem from="1720977291676" duration="11000" />
-      <workItem from="1720978414959" duration="9500000" />
+      <workItem from="1720978414959" duration="14673000" />
     </task>
     <servers />
   </component>

@@ -10,7 +10,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
-import org.springframework.validation.annotation.Validated;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -44,8 +43,22 @@ public class LawyerServiceIMPL implements LawyerService {
     }
 
     @Override
-    public boolean loginLawyer(String lawyerEmail, String lawyerPassword) {
-        return lawyerRepository.existsById(lawyerEmail) &&
-                lawyerRepository.findById(lawyerEmail).get().getPassword().equals(lawyerPassword);
+    public int loginLawyer(String lawyerEmail, String lawyerPassword) {
+        if (lawyerRepository.existsByEmail(lawyerEmail) &&
+                lawyerRepository.findByEmail(lawyerEmail).getPassword().equals(lawyerPassword)) {
+            return lawyerRepository.findByEmail(lawyerEmail).getId();
+        }
+        return -1;
+    }
+
+    @Override
+    public Lawyer getLawyer(int id) {
+        LawyerEntity lawyerEntity = lawyerRepository.findById(id);
+        if (null != lawyerEntity) {
+            Lawyer lawyer = modelMapper.map(lawyerEntity, Lawyer.class);
+            lawyer.setSpeciality(lawyerEntity.getSpeciality().split(","));
+            return lawyer;
+        }
+        return null;
     }
 }

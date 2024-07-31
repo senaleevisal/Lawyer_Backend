@@ -12,5 +12,7 @@ public interface LawyerService {
 
     List<Lawyer> getAllLawyers(int page, int size);
 
-    boolean loginLawyer(String lawyerEmail, String lawyerPassword);
+    int loginLawyer(String lawyerEmail, String lawyerPassword);
+
+    Lawyer getLawyer(int id);
 }

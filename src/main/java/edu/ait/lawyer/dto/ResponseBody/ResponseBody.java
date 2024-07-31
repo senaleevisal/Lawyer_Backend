@@ -2,6 +2,7 @@
 package edu.ait.lawyer.dto.ResponseBody;
 
 import edu.ait.lawyer.dao.Lawyer;
+import edu.ait.lawyer.dao.User;
 import lombok.Data;
 
 import java.util.ArrayList;
@@ -19,5 +20,9 @@ public class ResponseBody {
 
     public void addLawyers(List<Lawyer> lawyers) {
         this.response.computeIfAbsent("lawyers", k -> new ArrayList<>()).addAll(lawyers);
+    }
+
+    public void addUser(String user, User user1) {
+        this.response.computeIfAbsent(user, k -> new ArrayList<>()).add(user1);
     }
 }

@@ -6,4 +6,7 @@ import org.springframework.data.repository.CrudRepository;
 
 
 public interface LawyerRepository extends JpaRepository<LawyerEntity,String> {
+    boolean existsByEmail(String email);
+    LawyerEntity findByEmail(String email);
+    LawyerEntity findById(int id);
 }

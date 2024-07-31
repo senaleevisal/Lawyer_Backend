@@ -1,18 +1,18 @@
 package edu.ait.lawyer.Advice;
 
+
 import edu.ait.lawyer.dto.ResponseBody.ResponseBody;
 import org.springframework.http.HttpStatus;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
-import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import java.sql.SQLIntegrityConstraintViolationException;
 
-@RestControllerAdvice(basePackageClasses = edu.ait.lawyer.Controller.LawyerController.class)
-public class LawyerAdvice {
+@RestControllerAdvice(basePackageClasses = edu.ait.lawyer.Controller.UserController.class)
+public class UserAdvice {
     @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
     @ExceptionHandler(SQLIntegrityConstraintViolationException.class)
     public ResponseBody handleExceptions(SQLIntegrityConstraintViolationException e) {
@@ -32,6 +32,4 @@ public class LawyerAdvice {
         });
         return response;
     }
-
-
 }

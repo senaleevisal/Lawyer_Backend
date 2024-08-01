@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://mysql.railway.internal:3306/railway
+    url: jdbc:mysql://root:BWDddDLzTFHTPJAYXyPszYFVqzXjmtPl@mysql.railway.internal:3306/railway
     username: root
     password: BWDddDLzTFHTPJAYXyPszYFVqzXjmtPl
   jpa:

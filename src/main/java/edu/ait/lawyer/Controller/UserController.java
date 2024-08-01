@@ -4,6 +4,7 @@ package edu.ait.lawyer.Controller;
 import edu.ait.lawyer.Service.UserService;
 import edu.ait.lawyer.dao.User;
 import edu.ait.lawyer.dto.ResponseBody.ResponseBody;
+import jakarta.validation.Valid;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +21,7 @@ public class UserController {
     private UserService userService;
 
     @PostMapping("/register")
-    public ResponseBody RegisterUser(@RequestBody User user){
+    public ResponseBody RegisterUser(@Valid @RequestBody User user){
         ResponseBody response = new ResponseBody();
         if (userService.RegisterUser(user)){
             response.addResponse("status", "success");

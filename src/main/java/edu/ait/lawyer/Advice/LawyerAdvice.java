@@ -18,6 +18,7 @@ public class LawyerAdvice {
     public ResponseBody handleExceptions(SQLIntegrityConstraintViolationException e) {
         ResponseBody responseBody = new ResponseBody();
         responseBody.addResponse("error", "This Mail has used earlier. Please use another mail.");
+        responseBody.addResponse("status", "error");
         return responseBody;
     }
 
@@ -28,7 +29,8 @@ public class LawyerAdvice {
         ex.getBindingResult().getAllErrors().forEach((error) -> {
             String fieldName = ((FieldError) error).getField();
             String errorMessage = error.getDefaultMessage();
-            response.addResponse(fieldName, errorMessage);
+            response.addResponse("message", errorMessage);
+            response.addResponse("status", "error");
         });
         return response;
     }

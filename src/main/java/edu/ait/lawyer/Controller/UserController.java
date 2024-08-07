@@ -24,11 +24,11 @@ public class UserController {
     public ResponseBody RegisterUser(@Valid @RequestBody User user){
         ResponseBody response = new ResponseBody();
         if (userService.RegisterUser(user)){
-            response.addResponse("status", "success");
+            response.addResponse("state", "success");
             response.addResponse("message", "User registered successfully");
         }else {
-            response.addResponse("status", "error");
-            response.addResponse("error", "User not added");
+            response.addResponse("state", "error");
+            response.addResponse("message", "User not added");
         }
         return response;
     }
@@ -40,11 +40,11 @@ public class UserController {
         ResponseBody response = new ResponseBody();
         int userId = userService.loginUser(email, password);
         if (userId != -1) {
-            response.addResponse("status", "success");
+            response.addResponse("state", "success");
             response.addResponse("message", "User logged in successfully");
             response.addResponse("id", String.valueOf(userId));
         } else {
-            response.addResponse("status", "error");
+            response.addResponse("state", "error");
             response.addResponse("message", "User not found");
         }
         return response;
@@ -55,10 +55,10 @@ public class UserController {
         ResponseBody response = new ResponseBody();
         User user = userService.getUser(id);
         if (user != null){
-            response.addResponse("status", "success");
+            response.addResponse("state", "success");
             response.addUser("user", user);
         }else {
-            response.addResponse("status", "error");
+            response.addResponse("state", "error");
             response.addResponse("error", "User not found");
         }
         return response;

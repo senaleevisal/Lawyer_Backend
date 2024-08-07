@@ -6,7 +6,6 @@ import edu.ait.lawyer.dto.ResponseBody.ResponseBody;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 import java.util.Map;
 
@@ -22,13 +21,13 @@ public class LawyerController {
     public ResponseBody addLawyer(@Valid @RequestBody Lawyer lawyer) {
         if(lawyerService.addLawyer(lawyer)){
             ResponseBody responseBody = new ResponseBody();
-            responseBody.addResponse("status", "success");
+            responseBody.addResponse("state", "success");
             responseBody.addResponse("message", "Lawyer added successfully");
             return responseBody;
         }else{
             ResponseBody responseBody = new ResponseBody();
-            responseBody.addResponse("status", "error");
-            responseBody.addResponse("error", "Lawyer not added");
+            responseBody.addResponse("state", "error");
+            responseBody.addResponse("message", "Lawyer not added");
             return responseBody;
         }
     }
@@ -38,10 +37,12 @@ public class LawyerController {
         ResponseBody responseBody = new ResponseBody();
         List<Lawyer> lawyers = lawyerService.getAllLawyers(page, size);
         if(null != lawyers && !lawyers.isEmpty()) {
+            responseBody.addResponse("state", "success");
             responseBody.addResponse("message", "Lawyers fetched successfully");
             responseBody.addLawyers(lawyers);
         }else{
-            responseBody.addResponse("error", "No Lawyers found");
+            responseBody.addResponse("state", "error");
+            responseBody.addResponse("message", "No Lawyers found");
         }
 
         return responseBody;

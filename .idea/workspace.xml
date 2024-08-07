@@ -7,12 +7,16 @@
     <list default="true" id="13d6ce35-3c00-4d3b-b9fb-49850626d54b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/Advice/LawyerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/Advice/LawyerAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/Advice/UserAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/Advice/UserAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/Controller/LawyerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/Controller/LawyerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/Controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/Service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/dao/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/dao/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/ait/lawyer/LawyerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/ait/lawyer/LawyerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/Service/IMPL/LawyerServiceIMPL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/Service/IMPL/LawyerServiceIMPL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/dao/Lawyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/dao/Lawyer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/dto/LawyerEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ait/lawyer/dto/LawyerEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/ait/lawyer/Service/IMPL/LawyerServiceIMPL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/ait/lawyer/Service/IMPL/LawyerServiceIMPL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/ait/lawyer/dao/Lawyer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/ait/lawyer/dao/Lawyer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/ait/lawyer/dto/LawyerEntity$LawyerEntityBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/ait/lawyer/dto/LawyerEntity$LawyerEntityBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/ait/lawyer/dto/LawyerEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/ait/lawyer/dto/LawyerEntity.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +116,10 @@
       <workItem from="1721390940564" duration="1131000" />
       <workItem from="1721543678464" duration="1993000" />
       <workItem from="1722386015822" duration="32006000" />
-      <workItem from="1722492278353" duration="5507000" />
+      <workItem from="1722492278353" duration="13614000" />
+      <workItem from="1722646697778" duration="3083000" />
+      <workItem from="1722773963372" duration="5922000" />
+      <workItem from="1722922141516" duration="15156000" />
     </task>
     <servers />
   </component>

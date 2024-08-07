@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://mysql.railway.internal:3306/railway
+    url: jdbc:mysql://root:NncPbTCUjVkiuKNADoMiHiPWLZgwrXyj@mysql-ovwg.railway.internal:3306/railway
     username: root
-    password: BWDddDLzTFHTPJAYXyPszYFVqzXjmtPl
+    password: NncPbTCUjVkiuKNADoMiHiPWLZgwrXyj
   jpa:
     hibernate:
       ddl-auto: create
